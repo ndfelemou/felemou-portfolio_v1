@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les tendances du développement web en 2024 - Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@monportfolio.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Portfolio
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="skills.html" class="nav-link">Compétences</a></li>
+                    <li><a href="projects.html" class="nav-link">Projets</a></li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Single Post -->
+        <article class="single-post">
+            <!-- Post Header -->
+            <header class="single-post-header">
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <a href="blog.html">Blog</a>
+                    <span>/</span>
+                    <span>Les tendances du développement web en 2024</span>
+                </div>
+                <h1 class="single-post-title">Les tendances du développement web en 2024</h1>
+                <div class="single-post-meta">
+                    <span><i class="fas fa-calendar"></i> 15 Mars 2024</span>
+                    <span><i class="fas fa-user"></i> Admin</span>
+                    <span><i class="fas fa-comments"></i> 12 commentaires</span>
+                    <span><i class="fas fa-eye"></i> 1,234 vues</span>
+                </div>
+            </header>
+
+            <!-- Post Image -->
+            <div class="single-post-image">
+                <img src="/placeholder.svg" alt="Les tendances du développement web en 2024">
+            </div>
+
+            <!-- Post Content -->
+            <div class="single-post-content">
+                <p>Le développement web évolue constamment, et 2024 ne fait pas exception. Cette année marque un
+                    tournant décisif avec l'émergence de nouvelles technologies et l'évolution des pratiques existantes.
+                    Dans cet article, nous explorerons les tendances les plus importantes qui façonnent l'avenir du
+                    développement web.</p>
+
+                <h2>1. L'Intelligence Artificielle au cœur du développement</h2>
+                <p>L'IA n'est plus une technologie futuriste, elle est désormais intégrée dans nos outils de
+                    développement quotidiens. Des assistants de code comme GitHub Copilot aux outils de génération
+                    automatique de tests, l'IA transforme notre façon de coder.</p>
+
+                <blockquote>
+                    "L'intelligence artificielle ne remplacera pas les développeurs, mais les développeurs qui utilisent
+                    l'IA remplaceront ceux qui ne l'utilisent pas."
+                </blockquote>
+
+                <h2>2. Les frameworks JavaScript modernes</h2>
+                <p>React, Vue.js et Angular continuent d'évoluer, mais de nouveaux acteurs comme Svelte et SolidJS
+                    gagnent en popularité. Ces frameworks offrent des performances améliorées et une meilleure
+                    expérience développeur.</p>
+
+                <h3>Pourquoi ces frameworks sont-ils importants ?</h3>
+                <p>Les frameworks modernes permettent de créer des applications plus rapides, plus maintenables et plus
+                    accessibles. Ils intègrent nativement les bonnes pratiques de développement et offrent des outils de
+                    développement avancés.</p>
+
+                <h2>3. Le développement serverless</h2>
+                <p>L'architecture serverless continue de gagner du terrain. Avec des plateformes comme Vercel, Netlify
+                    et AWS Lambda, les développeurs peuvent se concentrer sur le code plutôt que sur l'infrastructure.
+                </p>
+
+                <h2>4. La sécurité web renforcée</h2>
+                <p>Avec l'augmentation des cyberattaques, la sécurité web devient une priorité absolue. Les développeurs
+                    doivent intégrer la sécurité dès la conception de leurs applications.</p>
+
+                <h2>Conclusion</h2>
+                <p>2024 s'annonce comme une année passionnante pour le développement web. En restant à jour avec ces
+                    tendances et en continuant à apprendre, nous pouvons créer des applications web plus performantes,
+                    sécurisées et accessibles.</p>
+            </div>
+
+            <!-- Post Footer -->
+            <footer class="single-post-footer">
+                <!-- Post Navigation -->
+                <div class="post-navigation">
+                    <div class="nav-post prev">
+                        <a href="#">
+                            <i class="fas fa-chevron-left"></i>
+                            <div>
+                                <small>Article précédent</small>
+                                <strong>Guide complet de React Hooks</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="nav-post next">
+                        <a href="#">
+                            <div>
+                                <small>Article suivant</small>
+                                <strong>Optimisation des performances web</strong>
+                            </div>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Comments Section -->
+                <section class="comments-section">
+                    <h3 class="comments-title">Commentaires (3)</h3>
+
+                    <!-- Comment 1 -->
+                    <div class="comment">
+                        <div class="comment-header">
+                            <div class="comment-avatar">
+                                <img src="/placeholder.svg" alt="Avatar utilisateur">
+                            </div>
+                            <div class="comment-info">
+                                <h4>Marie Dubois</h4>
+                                <span class="comment-date">16 Mars 2024 à 10:30</span>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            <p>Excellent article ! J'ai particulièrement apprécié la partie sur l'IA dans le
+                                développement. C'est effectivement une révolution en cours.</p>
+                        </div>
+                    </div>
+
+                    <!-- Comment 2 -->
+                    <div class="comment">
+                        <div class="comment-header">
+                            <div class="comment-avatar">
+                                <img src="/placeholder.svg" alt="Avatar utilisateur">
+                            </div>
+                            <div class="comment-info">
+                                <h4>Pierre Martin</h4>
+                                <span class="comment-date">16 Mars 2024 à 14:15</span>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            <p>Merci pour ce résumé complet des tendances 2024. Avez-vous des recommandations
+                                spécifiques pour commencer avec le serverless ?</p>
+                        </div>
+                    </div>
+
+                    <!-- Comment 3 -->
+                    <div class="comment">
+                        <div class="comment-header">
+                            <div class="comment-avatar">
+                                <img src="/placeholder.svg" alt="Avatar utilisateur">
+                            </div>
+                            <div class="comment-info">
+                                <h4>Sophie Laurent</h4>
+                                <span class="comment-date">17 Mars 2024 à 09:45</span>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            <p>Article très informatif ! La sécurité web est effectivement cruciale. Pourriez-vous
+                                écrire un article dédié à ce sujet ?</p>
+                        </div>
+                    </div>
+
+                    <!-- Comment Form -->
+                    <form class="comment-form">
+                        <h3>Laisser un commentaire</h3>
+                        <div class="form-group">
+                            <label for="comment-name">Nom *</label>
+                            <input type="text" id="comment-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment-email">Email *</label>
+                            <input type="email" id="comment-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment-message">Commentaire *</label>
+                            <textarea id="comment-message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-comment"></i>
+                            Publier le commentaire
+                        </button>
+                    </form>
+                </section>
+            </footer>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script (1).js"></script>
+</body>
+
+</html>

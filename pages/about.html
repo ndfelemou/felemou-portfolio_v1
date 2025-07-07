@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Mon Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@monportfolio.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Portfolio
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="about.html" class="nav-link active">À propos</a></li>
+                    <li><a href="skills.html" class="nav-link">Compétences</a></li>
+                    <li><a href="projects.html" class="nav-link">Projets</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>À propos de moi</h1>
+                <p>Découvrez mon parcours, mes passions et ce qui me motive dans le développement web</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>À propos</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Content -->
+        <section class="section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image scroll-reveal">
+                        <img src="/placeholder.svg" alt="Photo professionnelle">
+                    </div>
+                    <div class="about-text scroll-reveal">
+                        <h3>Développeur passionné et créatif</h3>
+                        <p>Je suis un développeur web full-stack avec une passion pour la création d'applications web
+                            modernes et performantes. Mon expertise couvre le développement front-end et back-end, avec
+                            une attention particulière portée à l'expérience utilisateur et aux performances.</p>
+                        <p>J'aime relever de nouveaux défis et apprendre constamment de nouvelles technologies. Mon
+                            approche combine créativité technique et rigueur professionnelle pour livrer des solutions
+                            qui dépassent les attentes.</p>
+                        <p>Quand je ne code pas, j'aime contribuer à des projets open source, écrire des articles
+                            techniques et partager mes connaissances avec la communauté des développeurs.</p>
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i>
+                                Me contacter
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fas fa-download"></i>
+                                Télécharger CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="about-stats">
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Années d'expérience</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Clients satisfaits</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Projets livrés</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Mon parcours</h2>
+                <div class="timeline">
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-date">2021 - Présent</div>
+                        <div class="timeline-content">
+                            <h3>Développeur Full-Stack Senior</h3>
+                            <h4>TechCorp Solutions</h4>
+                            <p>Développement d'applications web complexes, encadrement d'équipe junior, architecture de
+                                solutions techniques.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Développeur Front-End</h3>
+                            <h4>WebAgency Pro</h4>
+                            <p>Création d'interfaces utilisateur modernes, optimisation des performances, intégration
+                                d'APIs.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-date">2018 - 2019</div>
+                        <div class="timeline-content">
+                            <h3>Développeur Junior</h3>
+                            <h4>StartupTech</h4>
+                            <p>Premiers pas dans le développement professionnel, apprentissage des bonnes pratiques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script (1).js"></script>
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@monportfolio.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Portfolio
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="skills.html" class="nav-link">Compétences</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projets</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Mes projets</h1>
+                <p>Découvrez une sélection de mes réalisations et projets les plus significatifs</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>Projets</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Filter -->
+        <section class="section">
+            <div class="container">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Web App</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                    <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <div class="project-card scroll-reveal" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="E-commerce Platform">
+                            <div class="project-overlay">
+                                <i class="fas fa-shopping-cart project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">Une plateforme e-commerce complète avec panier, paiement en
+                                ligne et gestion des commandes. Interface moderne et responsive.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal" data-category="dashboard">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="Dashboard Analytics">
+                            <div class="project-overlay">
+                                <i class="fas fa-chart-line project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Dashboard Analytics</h3>
+                            <p class="project-description">Tableau de bord interactif pour visualiser des données en
+                                temps réel avec graphiques et métriques personnalisables.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal" data-category="mobile">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="App Mobile Social">
+                            <div class="project-overlay">
+                                <i class="fas fa-mobile-alt project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">App Mobile Social</h3>
+                            <p class="project-description">Application mobile sociale avec chat en temps réel, partage
+                                de photos et système de notifications push.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Redux</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal" data-category="web">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <i class="fas fa-globe project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">Site portfolio moderne et responsive avec animations CSS,
+                                mode sombre et optimisations SEO.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">GSAP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal" data-category="web">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <i class="fas fa-tasks project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">Application de gestion de tâches collaborative avec drag &
+                                drop, notifications et synchronisation temps réel.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Socket.io</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal" data-category="ecommerce">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="Restaurant Website">
+                            <div class="project-overlay">
+                                <i class="fas fa-utensils project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Restaurant Website</h3>
+                            <p class="project-description">Site web pour restaurant avec menu interactif, système de
+                                réservation et commande en ligne.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Tailwind</span>
+                                <span class="tech-tag">Prisma</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script (1).js"></script>
+</body>
+
+</html>

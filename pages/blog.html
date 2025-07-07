@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@monportfolio.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Portfolio
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="skills.html" class="nav-link">Compétences</a></li>
+                    <li><a href="projects.html" class="nav-link">Projets</a></li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Mon Blog</h1>
+                <p>Découvrez mes articles sur le développement web, les nouvelles technologies et mes expériences</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>Blog</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Container -->
+        <div class="blog-container">
+            <!-- Blog Main Content -->
+            <main class="blog-main">
+                <div class="blog-posts">
+                    <!-- Blog Post 1 -->
+                    <article class="blog-post scroll-reveal">
+                        <div class="blog-post-image">
+                            <img src="/placeholder.svg" alt="Les tendances du développement web en 2024">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span><i class="fas fa-calendar"></i> 15 Mars 2024</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-comments"></i> 12 commentaires</span>
+                            </div>
+                            <h2 class="blog-post-title">
+                                <a href="single-blog.html">Les tendances du développement web en 2024</a>
+                            </h2>
+                            <p class="blog-post-excerpt">
+                                Découvrez les dernières tendances qui façonnent le développement web cette année. De
+                                l'IA aux frameworks modernes, explorons ensemble l'avenir du web.
+                            </p>
+                            <div class="blog-post-tags">
+                                <a href="#" class="blog-tag">JavaScript</a>
+                                <a href="#" class="blog-tag">React</a>
+                                <a href="#" class="blog-tag">Tendances</a>
+                            </div>
+                            <a href="single-blog.html" class="read-more">
+                                Lire la suite <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="blog-post scroll-reveal">
+                        <div class="blog-post-image">
+                            <img src="/placeholder.svg" alt="Guide complet de React Hooks">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span><i class="fas fa-calendar"></i> 8 Mars 2024</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-comments"></i> 8 commentaires</span>
+                            </div>
+                            <h2 class="blog-post-title">
+                                <a href="single-blog.html">Guide complet de React Hooks</a>
+                            </h2>
+                            <p class="blog-post-excerpt">
+                                Maîtrisez les React Hooks avec ce guide complet. De useState à useEffect, découvrez
+                                comment optimiser vos composants React.
+                            </p>
+                            <div class="blog-post-tags">
+                                <a href="#" class="blog-tag">React</a>
+                                <a href="#" class="blog-tag">Hooks</a>
+                                <a href="#" class="blog-tag">Tutorial</a>
+                            </div>
+                            <a href="single-blog.html" class="read-more">
+                                Lire la suite <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="blog-post scroll-reveal">
+                        <div class="blog-post-image">
+                            <img src="/placeholder.svg" alt="Optimisation des performances web">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span><i class="fas fa-calendar"></i> 1 Mars 2024</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-comments"></i> 15 commentaires</span>
+                            </div>
+                            <h2 class="blog-post-title">
+                                <a href="single-blog.html">Optimisation des performances web</a>
+                            </h2>
+                            <p class="blog-post-excerpt">
+                                Apprenez les techniques essentielles pour optimiser les performances de vos applications
+                                web et améliorer l'expérience utilisateur.
+                            </p>
+                            <div class="blog-post-tags">
+                                <a href="#" class="blog-tag">Performance</a>
+                                <a href="#" class="blog-tag">Optimisation</a>
+                                <a href="#" class="blog-tag">Web</a>
+                            </div>
+                            <a href="single-blog.html" class="read-more">
+                                Lire la suite <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 4 -->
+                    <article class="blog-post scroll-reveal">
+                        <div class="blog-post-image">
+                            <img src="/placeholder.svg" alt="Introduction à Node.js">
+                        </div>
+                        <div class="blog-post-content">
+                            <div class="blog-post-meta">
+                                <span><i class="fas fa-calendar"></i> 22 Février 2024</span>
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-comments"></i> 6 commentaires</span>
+                            </div>
+                            <h2 class="blog-post-title">
+                                <a href="single-blog.html">Introduction à Node.js pour débutants</a>
+                            </h2>
+                            <p class="blog-post-excerpt">
+                                Découvrez Node.js et apprenez à créer votre première application serveur. Un guide
+                                parfait pour les développeurs débutants.
+                            </p>
+                            <div class="blog-post-tags">
+                                <a href="#" class="blog-tag">Node.js</a>
+                                <a href="#" class="blog-tag">Backend</a>
+                                <a href="#" class="blog-tag">Débutant</a>
+                            </div>
+                            <a href="single-blog.html" class="read-more">
+                                Lire la suite <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <a href="#" class="prev"><i class="fas fa-chevron-left"></i> Précédent</a>
+                    <span class="current">1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="next">Suivant <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </main>
+
+            <!-- Blog Sidebar -->
+            <aside class="blog-sidebar">
+                <!-- Search Widget -->
+                <div class="sidebar-widget scroll-reveal">
+                    <h3>Rechercher</h3>
+                    <form class="search-form">
+                        <input type="text" class="search-input" placeholder="Rechercher des articles...">
+                        <button type="submit" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="sidebar-widget scroll-reveal">
+                    <h3>Catégories</h3>
+                    <div class="categories-list">
+                        <a href="#">
+                            <span>JavaScript</span>
+                            <span class="category-count">12</span>
+                        </a>
+                        <a href="#">
+                            <span>React</span>
+                            <span class="category-count">8</span>
+                        </a>
+                        <a href="#">
+                            <span>Node.js</span>
+                            <span class="category-count">6</span>
+                        </a>
+                        <a href="#">
+                            <span>CSS</span>
+                            <span class="category-count">10</span>
+                        </a>
+                        <a href="#">
+                            <span>Performance</span>
+                            <span class="category-count">4</span>
+                        </a>
+                        <a href="#">
+                            <span>Tutoriels</span>
+                            <span class="category-count">15</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Recent Posts Widget -->
+                <div class="sidebar-widget scroll-reveal">
+                    <h3>Articles récents</h3>
+                    <div class="recent-posts-list">
+                        <a href="single-blog.html">Les tendances du développement web en 2024</a>
+                        <a href="single-blog.html">Guide complet de React Hooks</a>
+                        <a href="single-blog.html">Optimisation des performances web</a>
+                        <a href="single-blog.html">Introduction à Node.js pour débutants</a>
+                        <a href="single-blog.html">CSS Grid vs Flexbox : Quand utiliser quoi ?</a>
+                    </div>
+                </div>
+
+                <!-- Tags Widget -->
+                <div class="sidebar-widget scroll-reveal">
+                    <h3>Tags populaires</h3>
+                    <div class="tag-cloud">
+                        <a href="#">JavaScript</a>
+                        <a href="#">React</a>
+                        <a href="#">Node.js</a>
+                        <a href="#">CSS</a>
+                        <a href="#">HTML</a>
+                        <a href="#">Performance</a>
+                        <a href="#">SEO</a>
+                        <a href="#">Responsive</a>
+                        <a href="#">API</a>
+                        <a href="#">Database</a>
+                        <a href="#">Git</a>
+                        <a href="#">DevOps</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script (1).js"></script>
+</body>
+
+</html>

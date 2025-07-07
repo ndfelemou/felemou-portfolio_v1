@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@monportfolio.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Portfolio
+            </a>
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                    <li><a href="./pages/about.html" class="nav-link">À propos</a></li>
+                    <li><a href="./pages/skills.html" class="nav-link">Compétences</a></li>
+                    <li><a href="./pages/projects.html" class="nav-link">Projets</a></li>
+                    <li><a href="./pages/blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="./pages/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="./pages/about.html">À propos</a></li>
+                <li><a href="./pages/skills.html">Compétences</a></li>
+                <li><a href="./pages/projects.html">Projets</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Salut, je suis<br>Développeur Web</h1>
+                    <p class="subtitle">Créateur d'expériences numériques</p>
+                    <p>Passionné par le développement web moderne, je crée des applications web performantes et des
+                        interfaces utilisateur intuitives. Spécialisé en React, Node.js et les technologies front-end.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="projects.html" class="btn btn-primary">
+                            <i class="fas fa-eye"></i>
+                            Voir mes projets
+                        </a>
+                        <a href="contact.html" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            Me contacter
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="/placeholder.svg" alt="Photo de profil">
+                        </div>
+                        <h3>Développeur Full-Stack</h3>
+                        <p>3+ années d'expérience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick About Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Aperçu</h2>
+                <div class="about-stats">
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Années d'expérience</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Clients satisfaits</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Projets livrés</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Projets en vedette</h2>
+                <div class="projects-grid">
+                    <div class="project-card scroll-reveal">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="E-commerce Platform">
+                            <div class="project-overlay">
+                                <i class="fas fa-shopping-cart project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">Une plateforme e-commerce complète avec panier, paiement en
+                                ligne et gestion des commandes.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card scroll-reveal">
+                        <div class="project-image">
+                            <img src="/placeholder.svg" alt="Dashboard Analytics">
+                            <div class="project-overlay">
+                                <i class="fas fa-chart-line project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Dashboard Analytics</h3>
+                            <p class="project-description">Tableau de bord interactif pour visualiser des données en
+                                temps réel.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Express</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Voir le projet
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="projects.html" class="btn btn-primary">Voir tous les projets</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script (1).js"></script>
+</body>
+
+</html>
